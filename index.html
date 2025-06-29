@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>یزدپدیا</title>
+  <title>کرمان‌پدیا</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/vazir-font/30.1.0/font-face.css" rel="stylesheet">
   <style>
     html {
@@ -10,17 +10,18 @@
     }
     body {
       font-family: Vazirmatn, Vazir, sans-serif;
-      background: linear-gradient(135deg, #fdfbf7 0%, #f4f0e8 100%);
+      background: linear-gradient(135deg, #f9f9f9 0%, #f1f1f1 100%);
       color: #222;
       margin: 0;
       padding: 0;
       line-height: 1.8;
-      background-image: repeating-linear-gradient(45deg, #fdfbf7, #fdfbf7 10px, #f4f0e8 10px, #f4f0e8 20px);
+      background-image: repeating-linear-gradient(45deg, #f9f9f9, #f9f9f9 6px, #f1f1f1 6px, #f1f1f1 12px);
     }
     header {
-      background: #f9d342;
+      background: #00897b;
       padding: 2rem;
       text-align: center;
+      color: white;
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     header h1 {
@@ -41,13 +42,16 @@
     nav a {
       margin: 0.5rem 1rem;
       text-decoration: none;
-      color: #f8b500;
+      color: #00897b;
       font-weight: bold;
       border-bottom: 2px solid transparent;
       transition: border-color 0.3s;
     }
     nav a:hover {
-      border-bottom: 2px solid #f8b500;
+      border-bottom: 2px solid #00897b;
+    }
+    #kermanpedia-nav-title {
+      display: none;
     }
     section {
       max-width: 900px;
@@ -55,26 +59,15 @@
       padding: 1rem;
     }
     h2 {
-      color: #f8b500;
+      color: #00897b;
       font-size: 1.8rem;
-      border-bottom: 2px dashed #f8b500;
+      border-bottom: 2px dashed #00897b;
       padding-bottom: 0.5rem;
     }
     p {
       margin-bottom: 1.2rem;
       font-size: 1.1rem;
       text-align: justify;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      margin-bottom: 1rem;
-      background: #fffefa;
-      padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     }
     table {
       width: 100%;
@@ -90,11 +83,11 @@
       text-align: right;
     }
     th {
-      background-color: #f8b500;
+      background-color: #00897b;
       color: white;
     }
     footer {
-      background: #f8b500;
+      background: #00897b;
       text-align: center;
       padding: 1rem;
       color: white;
@@ -104,61 +97,69 @@
 </head>
 <body>
   <header>
-    <h1>یزدپدیا</h1>
+    <h1>کرمان‌پدیا</h1>
   </header>
   <nav>
-    <a href="#contribute">یزدپدیا</a>
-    <a href="#location">جغرافیای یزد</a>
-    <a href="#history">تاریخ یزد</a>
-    <a href="#culture">فرهنگ یزد</a>
-    <a href="#cities">شهرهای استان یزد</a>
-    <a href="#economy">اقتصاد یزد</a>
-    <a href="#tourism">گردشگری یزد</a>
+    <a id="kermanpedia-nav-title" href="#contribute">کرمان‌پدیا</a>
+    <a href="#location">جغرافیای کرمان</a>
+    <a href="#history">تاریخ کرمان</a>
+    <a href="#culture">فرهنگ کرمان</a>
+    <a href="#cities">شهرهای استان کرمان</a>
+    <a href="#economy">اقتصاد کرمان</a>
+    <a href="#tourism">گردشگری کرمان</a>
   </nav>
+  <section id="contribute">
+    <h2>مشارکت در پروژه کرمان‌پدیا</h2>
+    <p>پروژه کرمان‌پدیا با هدف گردآوری و ارائه اطلاعات دقیق و غیروابسته درباره استان کرمان ایجاد شده است. این پروژه یک مرجع آزاد و مشارکتی است که به کمک مردم و پژوهشگران توسعه می‌یابد.</p>
+    <p>برای مشارکت در این پروژه، لطفاً با شماره <strong>021-9200-5299</strong> تماس بگیرید.</p>
+  </section>
   <section id="location">
-    <h2>جغرافیا و موقعیت</h2>
-    <p>استان یزد در مرکز ایران قرار دارد و یکی از خشک‌ترین مناطق کشور محسوب می‌شود. این استان در منطقه کویری واقع شده و هم‌مرز با استان‌های اصفهان، کرمان، فارس، سمنان و خراسان جنوبی است.</p>
+    <h2>جغرافیای کرمان</h2>
+    <p>کرمان پهناورترین استان ایران است که در جنوب شرق کشور واقع شده و دارای اقلیم متنوعی از کوهستانی تا کویری می‌باشد.</p>
   </section>
   <section id="history">
-    <h2>تاریخچه</h2>
-    <p>یزد از جمله مناطق کهن ایران با قدمت چند هزار ساله است. نام این شهر برگرفته از واژه «یزدان» به معنی مقدس است و در دوره ساسانیان، اسلام و عصر قاجار نقش مهمی در فرهنگ و اقتصاد ایران داشته است.</p>
+    <h2>تاریخ کرمان</h2>
+    <p>کرمان یکی از استان‌های تاریخی ایران است که سابقه‌ای طولانی در تمدن و فرهنگ دارد و در دوره‌های مختلف مرکز حکومت و تمدن بوده است.</p>
   </section>
   <section id="culture">
-    <h2>فرهنگ و آداب</h2>
-    <p>فرهنگ یزد ترکیبی از باورهای مذهبی، آداب بومی و شیوه زندگی سازگار با اقلیم کویری است. آیین‌های عاشورایی، نوروز، نذری دادن، موسیقی سنتی، معماری خشتی و خوراکی‌هایی چون قطاب و باقلوا از ویژگی‌های برجسته فرهنگ مردم یزد هستند.</p>
+    <h2>فرهنگ کرمان</h2>
+    <p>فرهنگ بومی مردم کرمان متأثر از شرایط جغرافیایی و تاریخی است و شامل موسیقی سنتی، صنایع دستی معروف (قالی، پته، ظروف مسی) و آداب سنتی خاص منطقه می‌باشد.</p>
   </section>
   <section id="cities">
-    <h2>شهرهای مهم استان یزد</h2>
+    <h2>شهرهای مهم استان کرمان</h2>
     <table>
       <thead>
         <tr><th>شهر</th><th>توضیحات</th></tr>
       </thead>
       <tbody>
-        <tr><td>یزد</td><td>مرکز استان، ثبت جهانی یونسکو، شهر بادگیرها</td></tr>
-        <tr><td>میبد</td><td>شهر سفال و قلعه نارین، چاپارخانه تاریخی</td></tr>
-        <tr><td>اردکان</td><td>شهر زرتشتیان، موزه‌های متعدد و بافت تاریخی</td></tr>
-        <tr><td>تفت</td><td>شهر کوهپایه‌ای، باغ‌های انار و آب‌وهوای معتدل</td></tr>
-        <tr><td>ابرکوه</td><td>دارای سرو کهنسال، خانه تاریخی آقازاده</td></tr>
-        <tr><td>بافق</td><td>شهر معدنی، طبیعت‌گردی در کویر و رمل‌های زیبا</td></tr>
-        <tr><td>مهریز</td><td>دارای باغ دولت‌آباد، قنات و مناطق تاریخی</td></tr>
+        <tr><td>کرمان</td><td>مرکز استان، دارای بازار تاریخی و ارگ‌ها</td></tr>
+        <tr><td>رفسنجان</td><td>قطب پسته ایران و یکی از بزرگ‌ترین باغ‌های پسته جهان</td></tr>
+        <tr><td>جیرفت</td><td>دارای آثار باستانی مربوط به تمدن جیرفت</td></tr>
+        <tr><td>بم</td><td>ارگ تاریخی بم، بزرگ‌ترین سازه خشتی جهان</td></tr>
+        <tr><td>سیرجان</td><td>منطقه صنعتی و معدنی مهم</td></tr>
       </tbody>
     </table>
   </section>
   <section id="economy">
-    <h2>اقتصاد</h2>
-    <p>اقتصاد استان یزد مبتنی بر صنعت (کاشی، سرامیک، نساجی، فولاد)، صنایع دستی و معادن است. همچنین در حوزه کشاورزی محصولات خاصی مانند پسته و انار تولید می‌شود.</p>
+    <h2>اقتصاد کرمان</h2>
+    <p>اقتصاد کرمان بر پایه کشاورزی، معدن (مس، زغال‌سنگ)، صنایع دستی و گردشگری استوار است.</p>
   </section>
   <section id="tourism">
-    <h2>جاذبه‌های گردشگری</h2>
-    <p>از جاذبه‌های مهم استان می‌توان به مسجد جامع یزد، میدان امیرچخماق، باغ دولت‌آباد، آتشکده زرتشتیان و بافت تاریخی یزد اشاره کرد.</p>
-  </section>
-  <section id="contribute">
-    <h2>مشارکت در پروژه یزدپدیا</h2>
-    <p>پروژه یزدپدیا با هدف گردآوری و ارائه اطلاعات دقیق، علمی و دست‌اول درباره استان یزد راه‌اندازی شده است. این پروژه دانشنامه‌ای آزاد و مردمی است که با مشارکت علاقه‌مندان، پژوهشگران، معلمان، دانشجویان و بومیان استان غنا می‌یابد.</p>
-    <p>برای مشارکت و همکاری در این پروژه، لطفاً با شماره <strong>021-9200-5299</strong> تماس بگیرید.</p>
+    <h2>گردشگری کرمان</h2>
+    <p>از جاذبه‌های کرمان می‌توان به باغ شازده ماهان، ارگ بم، بازار کرمان، حمام گنجعلی‌خان و کویر لوت اشاره کرد.</p>
   </section>
   <footer>
     در حال توسعه و بروزرسانی
   </footer>
+  <script>
+    const navTitle = document.getElementById('kermanpedia-nav-title');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 200) {
+        navTitle.style.display = 'inline';
+      } else {
+        navTitle.style.display = 'none';
+      }
+    });
+  </script>
 </body>
 </html>
