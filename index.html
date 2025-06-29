@@ -1,39 +1,158 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<!DOCTYPE html><html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>یزد پدیا</title>
+  <title>دانشنامه یزدپدیا</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/vazir-font/30.1.0/font-face.css" rel="stylesheet">
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
     body {
       font-family: Vazirmatn, Vazir, sans-serif;
-      background: linear-gradient(135deg, #FCEABB, #F8B500);
+      background: linear-gradient(135deg, #fdfbf7 0%, #f4f0e8 100%);
       color: #222;
-      text-align: center;
-      padding: 3rem 1rem;
+      margin: 0;
+      padding: 0;
       line-height: 1.8;
+      background-image: repeating-linear-gradient(45deg, #fdfbf7, #fdfbf7 20px, #f4f0e8 20px, #f4f0e8 40px);
     }
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
+    header {
+      background: #f9d342;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+    }
+    nav {
+      background: #fff;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #eee;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav a {
+      margin: 0.5rem 1rem;
+      text-decoration: none;
+      color: #f8b500;
+      font-weight: bold;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.3s;
+    }
+    nav a:hover {
+      border-bottom: 2px solid #f8b500;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    h2 {
+      color: #f8b500;
+      font-size: 1.8rem;
+      border-bottom: 2px dashed #f8b500;
+      padding-bottom: 0.5rem;
     }
     p {
-      font-size: 1.2rem;
-      max-width: 700px;
-      margin: 0 auto 1.5rem;
+      margin-bottom: 1.2rem;
+      font-size: 1.1rem;
+      text-align: justify;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 1rem;
+      background: #fffefa;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+      margin: 2rem 0;
+    }
+    table, th, td {
+      border: 1px solid #eee;
+    }
+    th, td {
+      padding: 0.75rem;
+      text-align: right;
+    }
+    th {
+      background-color: #f8b500;
+      color: white;
     }
     footer {
+      background: #f8b500;
+      text-align: center;
+      padding: 1rem;
+      color: white;
       margin-top: 3rem;
-      font-weight: bold;
-      font-size: 1.1rem;
     }
   </style>
 </head>
 <body>
-  <h1>یزد پدیا</h1>
-  <p>استان یزد یکی از استان‌های مرکزی ایران است که به عنوان شهر بادگیرها و معماری خشتی شهرت دارد. این استان از نظر تاریخی و فرهنگی اهمیت بالایی دارد.</p>
-  <p>از مهم‌ترین شهرهای این استان می‌توان به یزد (مرکز استان)، میبد، اردکان، تفت، ابرکوه و بافق اشاره کرد.</p>
-  <footer>در حال راه‌اندازی</footer>
+  <header>
+    <h1>دانشنامه یزدپدیا</h1>
+  </header>
+  <nav>
+    <a href="#location">جغرافیا</a>
+    <a href="#history">تاریخچه</a>
+    <a href="#culture">فرهنگ</a>
+    <a href="#cities">شهرها</a>
+    <a href="#economy">اقتصاد</a>
+    <a href="#tourism">گردشگری</a>
+  </nav>
+  <section id="location">
+    <h2>جغرافیا و موقعیت</h2>
+    <p>استان یزد در مرکز ایران قرار دارد و یکی از خشک‌ترین مناطق کشور محسوب می‌شود. این استان در منطقه کویری واقع شده و هم‌مرز با استان‌های اصفهان، کرمان، فارس، سمنان و خراسان جنوبی است.</p>
+  </section>
+  <section id="history">
+    <h2>تاریخچه</h2>
+    <p>یزد از جمله مناطق کهن ایران با قدمت چند هزار ساله است. نام این شهر برگرفته از واژه «یزدان» به معنی مقدس است و در دوره ساسانیان، اسلام و عصر قاجار نقش مهمی در فرهنگ و اقتصاد ایران داشته است.</p>
+  </section>
+  <section id="culture">
+    <h2>فرهنگ و آداب</h2>
+    <p>فرهنگ یزد ترکیبی از باورهای مذهبی، آداب بومی و شیوه زندگی سازگار با اقلیم کویری است. آیین‌های عاشورایی، نوروز، نذری دادن، موسیقی سنتی، معماری خشتی و خوراکی‌هایی چون قطاب و باقلوا از ویژگی‌های برجسته فرهنگ مردم یزد هستند.</p>
+  </section>
+  <section id="cities">
+    <h2>شهرهای مهم استان یزد</h2>
+    <table>
+      <thead>
+        <tr><th>شهر</th><th>توضیحات</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>یزد</td><td>مرکز استان، ثبت جهانی یونسکو، شهر بادگیرها</td></tr>
+        <tr><td>میبد</td><td>شهر سفال و قلعه نارین، چاپارخانه تاریخی</td></tr>
+        <tr><td>اردکان</td><td>شهر زرتشتیان، موزه‌های متعدد و بافت تاریخی</td></tr>
+        <tr><td>تفت</td><td>شهر کوهپایه‌ای، باغ‌های انار و آب‌وهوای معتدل</td></tr>
+        <tr><td>ابرکوه</td><td>دارای سرو کهنسال، خانه تاریخی آقازاده</td></tr>
+        <tr><td>بافق</td><td>شهر معدنی، طبیعت‌گردی در کویر و رمل‌های زیبا</td></tr>
+        <tr><td>مهریز</td><td>دارای باغ دولت‌آباد، قنات و مناطق تاریخی</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section id="economy">
+    <h2>اقتصاد</h2>
+    <p>اقتصاد استان یزد مبتنی بر صنعت (کاشی، سرامیک، نساجی، فولاد)، صنایع دستی و معادن است. همچنین در حوزه کشاورزی محصولات خاصی مانند پسته و انار تولید می‌شود.</p>
+  </section>
+  <section id="tourism">
+    <h2>جاذبه‌های گردشگری</h2>
+    <p>از جاذبه‌های مهم استان می‌توان به مسجد جامع یزد، میدان امیرچخماق، باغ دولت‌آباد، آتشکده زرتشتیان و بافت تاریخی یزد اشاره کرد.</p>
+  </section>
+  <footer>
+    در حال توسعه و بروزرسانی
+  </footer>
 </body>
 </html>
